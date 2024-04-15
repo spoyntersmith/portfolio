@@ -207,7 +207,7 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
-axios@^1.6.8:
+axios@^1.4.0, axios@^1.6.8:
   version "1.6.8"
   resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.8.tgz#66d294951f5d988a00e87a0ffb955316a619ea66"
   integrity sha512-v/ZHtJDU39mDpyBoFVkETcd/uNdxrWRrg3bKpOKzXFA6Bvqopts6ALSMU3y6ijYxbw2B+wPrIv46egTzJXCLGQ==
@@ -276,6 +276,30 @@ fsevents@~2.3.2, fsevents@~2.3.3:
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
   integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
+laravel-precognition-vue-inertia@^0.5.4:
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/laravel-precognition-vue-inertia/-/laravel-precognition-vue-inertia-0.5.4.tgz#a4a110ae80282f5a4108026d1ad64f57e5a22d04"
+  integrity sha512-XkIS5PQ4/4TqrXET08Rz8ebrdeZxuqMTT6oBLUxZ9HSSGqLAVSVE9eZKxwjfi4FPvHt/0qRijCFMy7FyhYPvpw==
+  dependencies:
+    laravel-precognition "0.5.4"
+    laravel-precognition-vue "0.5.4"
+
+laravel-precognition-vue@0.5.4:
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/laravel-precognition-vue/-/laravel-precognition-vue-0.5.4.tgz#5cac5fa55db9d98291a91ea63c24c44be43f7c23"
+  integrity sha512-g4zcirYSoVkfjDr44XS2wMzRjEf9Y3LWjRxU/DSQUtTSSwkC7/dPJ62xTchVsNg4CeNmjOpX9xAg+ZDXkZ6Xfg==
+  dependencies:
+    laravel-precognition "0.5.4"
+    lodash-es "^4.17.21"
+
+laravel-precognition@0.5.4:
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/laravel-precognition/-/laravel-precognition-0.5.4.tgz#1d8468ede52cb388a31d9776cd5046f0b7e1cbd6"
+  integrity sha512-w6OV4TKanQKwiEWgbkglH2hJOjIQr5fH8gmUjwKDAOVTPOhJZQhQfR38K2OElM8vjRYET2s9wSEoc9eg8Xt4GQ==
+  dependencies:
+    axios "^1.4.0"
+    lodash-es "^4.17.21"
+
 laravel-vite-plugin@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/laravel-vite-plugin/-/laravel-vite-plugin-1.0.2.tgz#97575181a1f870532b39ab3b423b53f01385feba"
@@ -283,6 +307,11 @@ laravel-vite-plugin@^1.0.2:
   dependencies:
     picocolors "^1.0.0"
     vite-plugin-full-reload "^1.1.0"
+
+lodash-es@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
 
 mime-db@1.52.0:
   version "1.52.0"
