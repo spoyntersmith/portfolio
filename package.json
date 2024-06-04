@@ -19,6 +19,8 @@
         "vue": "^3.4.0"
     },
     "dependencies": {
-        "laravel-precognition-vue-inertia": "^0.5.4"
+        "@sentry/vue": "^7.40.0",
+        "laravel-precognition-vue-inertia": "^0.5.4",
+        "vuetify-sonner": "^0.3.14"
     }
 }
